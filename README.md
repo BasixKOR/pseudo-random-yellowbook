@@ -27,6 +27,7 @@ List ordering follows [TIOBE Index](https://www.tiobe.com/tiobe-index/).
 | Rust |
 | Julia | [`Random`](https://docs.julialang.org/en/v1/stdlib/Random) | [`abs(rand(UInt64)) % 10 + 1`](https://docs.julialang.org/en/v1/stdlib/Random/#Base.rand) | [`abs(rand(Float64)) * 100`](https://docs.julialang.org/en/v1/stdlib/Random/#Base.rand)
 | Scala | [`scala.util.Random`](https://www.scala-lang.org/api/3.0.2/scala/util/Random.html) | [`Random.nextInt(10) + 1`](https://www.scala-lang.org/api/3.0.2/scala/util/Random.html#nextInt-fffffbe0) | [`Random.between(1f, 100f)`](https://www.scala-lang.org/api/3.0.2/scala/util/Random.html#between-44b) |
+| Racket | [`racket/base`](https://docs.racket-lang.org/reference/index.html) | [`(random 1 11)`](https://docs.racket-lang.org/reference/generic-numbers.html#%28def._%28%28lib._racket%2Fprivate%2Fbase..rkt%29._random%29%29) | [`(* (random) 100)`](https://docs.racket-lang.org/reference/generic-numbers.html#%28def._%28%28lib._racket%2Fprivate%2Fbase..rkt%29._random%29%29)
 
 ## SQL
 
